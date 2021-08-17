@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    clear: both;
+}
+
+/*-------------- Top Header
+------------------------ */
+.banner-container{
+    width: 1160px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #2D25A0;
+}
+
+.banner-title h1{
+    width: 485px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 64px;
+    margin-bottom: 27px;
+}
+
+.banner-title span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    transition: width 1s linear, height 1s linear;
+}
+
+.banner-title span:hover{ 
+    width: 200px;
+    height: 60px;
+}
+
+.banner-title a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF; 
+}
+
+.banner-img:hover{
+    transform: rotate(20deg);
+}
+
+.banner-img img{
+    width: 556.01px;
+    height: 438px;
+}
+
+/*---------------Player-Gallary
+---------------------------- */
+.Player-gallery-container{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    width: 1050px;
+}
+
+.player{
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(172, 160, 160);
+    }
+
+.player img{
+        width: 300px;
+        height: 256px;
+        margin-bottom: 16px;
+    }
+
+.player h2{
+      font-weight: 700;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+.player p{
+        font-size: 16px;
+}
+
+/*-------- Footer 
+----------------*/
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-section{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.footer-section img{
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.icons-container a i{
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    color: rgb(12, 11, 11);
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 8px;
+}
+.copyright{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
