@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Lato', sans-serif;
+    margin-top: 0px;
 }
 
 main{
@@ -18,7 +19,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 20px;
+    border-radius:0px 0px 20px 20px;
     background-color: #2D25A0;
 }
 
@@ -98,7 +99,51 @@ main{
 .player p{
         font-size: 16px;
 }
-
+/*------------- Highlights
+---------------------- */
+.highlights-section{
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+}
+.highlights-container{
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.highlights-text{
+    width: 466px;
+}
+.highlights-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #0A0826;
+}
+.highlights-text p{
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #6C6C6C;
+}
+.highlights-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 173px;
+    height: 44px;
+    background-color: #E02C6D;
+}
+.highlights-text a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF; 
+}
+.highlightss-img img{
+    width: 567px;
+    height: 427px;
+    border-radius: 20px;
+}
 /*-------- Footer 
 ----------------*/
 footer{
